@@ -24,7 +24,7 @@ const ExpenseItem = (props: { date: any; title: string; amount: number }) => {
           <div className="expense-item__price">${props.amount}</div>
         </div>
 
-        <button onClick={titleHandler}>Change Title</button>
+        {/* <button onClick={titleHandler}>Change Title</button> */}
       </Card>
     </div>
   );
